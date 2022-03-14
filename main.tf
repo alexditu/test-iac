@@ -14,4 +14,6 @@ resource "aws_instance" "ubuntu" {
   tags {
     Name = "${var.name}"
   }
+
+  ebs_optimized = true
 }
