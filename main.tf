@@ -15,3 +15,6 @@ resource "aws_instance" "ubuntu" {
     Name = "${var.name}"
   }
 }
+
+
+
